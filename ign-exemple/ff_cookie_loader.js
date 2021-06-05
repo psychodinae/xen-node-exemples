@@ -3,7 +3,7 @@ var fs = require("fs")
 var path = require("path")
 
 // exemple to get firefox cookie to login on ignboards forum because 
-// this site not use standard xenforo login sistem.
+// this site not use standard xenforo login system.
 
 module.exports = getCookiesFromFirefox = function (callback, pathDbFile) {
   if (typeof pathDbFile === "undefined") {
